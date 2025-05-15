@@ -1,0 +1,20 @@
+/* Apply a glassy effect to the entire VS Code window */
+body {
+    background: rgba(255, 255, 255, 0.2) !important;
+    /* Light transparency */
+    backdrop-filter: blur(10px) !important;
+    /* Glass effect */
+}
+
+/* Make the editor area have a frosted look */
+.monaco-editor {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+/* Glass effect for sidebar and panel */
+.sidebar,
+.panel {
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(12px) !important;
+}
