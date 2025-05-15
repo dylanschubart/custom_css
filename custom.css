@@ -1,6 +1,6 @@
 /* Apply a glassy effect to the entire VS Code window */
 body {
-    background: red;
+    background: rgba(255, 255, 255, 0.2) !important;
     /* Light transparency */
     backdrop-filter: blur(10px) !important;
     /* Glass effect */
